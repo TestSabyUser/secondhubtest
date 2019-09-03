@@ -1,0 +1,1595 @@
+<?xml version="1.0" encoding="WINDOWS-1251" ?>
+<dictionary dicx_version="1.28">
+
+  <group name="Ñâÿçü ñ äðóãèìè ìîäóëÿìè">
+    <table last_changed="Ñìóðîâ À.À." name="Location" personal_data="1" responsible="Ñìóðîâ À.À." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>CEXTENSION</type>
+          <table>Ëèöî</table>
+        </format>
+      </column>
+      <column name="Name">
+        <format>
+          <type>STRING</type>
+        </format>
+      </column>
+      <column name="Îïèñàíèå">
+        <format>
+          <type>STRING</type>
+        </format>
+      </column>
+      <column name="ÄàòàÎêîí÷àíèÿ">
+        <format>
+          <type>DATE</type>
+        </format>
+      </column>
+      <column name="ÄàòàÍà÷àëà">
+        <format>
+          <type>DATE</type>
+        </format>
+      </column>
+      <column name="ÂðåìÿÍà÷àëàÐàáîòû">
+        <format>
+          <type>TIME</type>
+        </format>
+      </column>
+      <column name="ÂðåìÿÎêîí÷àíèÿÐàáîòû">
+        <format>
+          <type>TIME</type>
+       
+        <column is_expressions="0" name="Parent" nulls_place="LAST" sorting="ASC"/>
+        <column is_expressions="0" name="Parent@" nulls_place="LAST" sorting="DESC"/>
+      </index>
+      <trigger_list/>
+    </table>
+    <table last_changed="Âîëêîâ Ä.Í." name="ÂèäÏîîùðåíèÿÂçûñêàíèÿ" personal_data="0" responsible="Âîëêîâ Ä.Í." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>IDENTIFIER</type>
+          <max_size>4</max_size>
+        </format>
+      </column>
+      <column name="Íàèìåíîâàíèå">
+        <format>
+          <type>STRING</type>
+        </format>
+      </column>
+      <column name="Òèï">
+        <format>
+          <type>ENUM</type>
+          <element>
+            <string>Âçûñêàíèå</string>
+            <value>0</value>
+          </element>
+          <element>
+            <string>Ïîîùðåíèå</string>
+            <value>1</value>
+          </element>
+          <element>
+            <string>Ïåðåðàáîòêà</string>
+            <value>2</value>
+          </element>
+          <element>
+            <string>Ñàéò</string>
+            <value>3</value>
+          </element>
+          <element>
+            <string>Áðàóçåð</string>
+            <value>4</value>
+          </element>
+        </format>
+      </column>
+      <trigger_list/>
+    </table>
+    <table last_changed="Ñàâèí Â.Â." name="ÂèäÐàáîòû" personal_data="0" responsible="Ñàâèí Â.Â." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>IDENTIFIER</type>
+          <max_size>4</max_size>
+        </format>
+      </column>
+      <trigger_list/>
+    </table>
+	<table last_changed="Øàðàøîâ Ì.À." name="ÂèäÐàñõîäàÀâàíñîâîãîÎò÷åòà" personal_data="0" responsible="Êàðà÷åâöåâ Þ.Þ." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>IDENTIFIER</type>
+          <max_size>4</max_size>
+        </format>
+      </column>
+      <column name="Íàçâàíèå">
+        <format>
+          <type>TEXT</type>
+        </format>
+      </column>
+      <trigger_list/>
+    </table>
+    <table last_changed="Âîëêîâ Ä.Í." name="Äîêóìåíò" personal_data="0" responsible="Âîëêîâ Ä.Í." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>IDENTIFIER</type>
+          <max_size>4</max_size>
+        </format>
+      </column>
+      <trigger_list/>
+    </table>
+    <table last_changed="Âîëêîâ Ä.Í." name="ÄîêóìåíòÐàñøèðåíèå" personal_data="0" responsible="Âîëêîâ Ä.Í." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>UEXTENSION</type>
+          <table>Äîêóìåíò</table>
+        </format>
+      </column>
+      <trigger_list/>
+    </table>
+    <table last_changed="Âîëêîâ Ä.Í." name="Ëèöî" personal_data="0" responsible="Âîëêîâ Ä.Í." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>IDENTIFIER</type>
+          <max_size>4</max_size>
+        </format>
+      </column>
+      <trigger_list/>
+    </table>
+    <table last_changed="Ïàëî÷êèí Â.Â." name="ËèöîÄîêóìåíòà" personal_data="0" responsible="Âîëêîâ Ä.Í." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>IDENTIFIER</type>
+          <max_size>4</max_size>
+        </format>
+      </column>
+      <column name="Ñîñòîÿíèå">
+        <format>
+          <not_null>1</not_null>
+          <default>0</default>
+          <type>ENUM</type>
+          <element>
+            <string>Íå îçíàêîìëåí</string>
+            <value>0</value>
+          </element>
+          <element>
+            <string>Ïðèìåò ó÷àñòèå</string>
+            <value>1</value>
+          </element>
+          <element>
+            <string>Íå ïðèìåò ó÷àñòèå</string>
+            <value>2</value>
+          </element>
+          <element>
+            <string>Óäàëåí</string>
+            <value>3</value>
+          </element>
+          <element>
+            <string>Îòâåòñòâåííûé</string>
+            <value>4</value>
+          </element>
+        </format>
+      </column>
+      <column name="Ìåòêà">
+        <format>
+          <type>STRING</type>
+        </format>
+      </column>
+      <column name="Óäàëåí">
+        <format>
+          <default>0</default>
+          <type>BOOLEAN</type>
+        </format>
+      </column>
+      <column name="ÑâÿçüÄîêóìåíòîâ">
+        <format>
+          <type>LINK1-N</type>
+          <table>ÑâÿçüÄîêóìåíòîâ</table>
+          <on_delete>0</on_delete>
+        </format>
+      </column>
+      <column name="Ðàçäåë">
+        <format>
+          <type>HIERARCHY</type>
+          <on_delete>2</on_delete>
+          <nodes_field>1</nodes_field>
+        </format>
+      </column>
+      <column name="ÑóììÏëàíÂðåìÿ">
+        <format>
+          <not_null>1</not_null>
+          <default>0</default>
+          <type>INT64</type>
+        </format>
+      </column>
+      <column name="ÑóììÔàêòÂðåìÿ">
+        <format>
+          <not_null>1</not_null>
+          <default>0</default>
+          <type>INT64</type>
+        </format>
+      </column>
+      <column name="Çàäà÷è">
+        <format>
+          <type>INTEGER</type>
+        </format>
+      </column>
+      <column name="Èíöèäåíòû">
+        <format>
+          <type>INTEGER</type>
+        </format>
+      </column>
+      <column name="ÄàòàÎáíîâëåíèÿ">
+        <format>
+          <type>DATE</type>
+        </format>
+      </column>
+      <index method="btree" name="ÑâÿçüÄîêóìåíòîâ" null_keys="1" service="1" unique="0">
+        <column is_expressions="0" name="ÑâÿçüÄîêóìåíòîâ" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <index method="btree" name="Ðàçäåë" null_keys="1" service="1" unique="0">
+        <column is_expressions="0" name="Ðàçäåë" nulls_place="LAST" sorting="ASC"/>
+        <column is_expressions="0" name="Ðàçäåë@" nulls_place="LAST" sorting="DESC"/>
+      </index>
+      <index method="btree" name="Ñîñòîÿíèå" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="Ñîñòîÿíèå" nulls_place="DEFAULT" sorting="ASC"/>
+      </index>
+      <trigger_list/>
+    </table>
+    <table last_changed="karachevtsevuu" name="Ðàáîòà" personal_data="0" responsible="Êàðà÷åâöåâ" table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>IDENTIFIER</type>
+          <max_size>4</max_size>
+        </format>
+      </column>
+      <trigger_list/>
+    </table>
+    <table last_changed="Ïàëî÷êèí Â.Â." name="Ðàçëè÷íûåÄîêóìåíòû" personal_data="0" responsible="Âîëêîâ Ä.Í." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>CEXTENSION</type>
+          <table>Äîêóìåíò</table>
+        </format>
+      </column>
+      <trigger_list/>
+    </table>
+    <table last_changed="Ïàëî÷êèí Â.Â." name="ÑâÿçüÄîêóìåíòîâ" personal_data="0" responsible="Âîëêîâ Ä.Í." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>IDENTIFIER</type>
+          <max_size>4</max_size>
+        </format>
+      </column>
+      <column name="Ðàçäåë">
+        <format>
+          <type>HIERARCHY</type>
+          <on_delete>1</on_delete>
+          <nodes_field>1</nodes_field>
+        </format>
+      </column>
+      <column name="ÂèäÐàáîòû">
+        <format>
+          <type>LINK1-N</type>
+          <table>ÂèäÐàáîòû</table>
+          <on_delete>2</on_delete>
+        </format>
+      </column>
+      <index method="btree" name="Ðàçäåë" null_keys="0" service="1" unique="0">
+        <column is_expressions="0" name="Ðàçäåë" nulls_place="LAST" sorting="ASC"/>
+        <column is_expressions="0" name="Ðàçäåë@" nulls_place="LAST" sorting="DESC"/>
+      </index>
+      <index method="btree" name="ÂèäÐàáîòû" null_keys="1" service="1" unique="0">
+        <column is_expressions="0" name="ÂèäÐàáîòû" nulls_place="LAST" sorting="ASC"/>
+        <predicate>
+          <body>"ÂèäÐàáîòû" IS NOT NULL</body>
+        </predicate>
+      </index>
+      <trigger_list/>
+    </table>
+    <table last_changed="Ïàëî÷êèí Â.Â." name="Ñîáûòèå" personal_data="0" responsible="Ïàëî÷êèí Â.Â." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>IDENTIFIER</type>
+          <max_size>4</max_size>
+        </format>
+      </column>
+      <trigger_list/>
+    </table>
+    <table last_changed="Êàðà÷åâöåâ Þ.Þ." name="ÑòàòüÿÇàòðàò" personal_data="0" responsible="Êàðà÷åâöåâ Þ.Þ." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>CEXTENSION</type>
+          <table>Ëèöî</table>
+        </format>
+      </column>
+      <column name="Íàçâàíèå">
+        <format>
+          <type>STRING</type>
+        </format>
+      </column>
+      <trigger_list/>
+    </table>
+    <table last_changed="Ïàëî÷êèí Â.Â." name="ÒèïÄîêóìåíòà" personal_data="0" responsible="Ïàëî÷êèí Â.Â." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>IDENTIFIER</type>
+          <max_size>4</max_size>
+        </format>
+      </column>
+      <trigger_list/>
+    </table>
+    <table last_changed="Ïîíîìàðåâ Ñ.À." name="×àñòíîåËèöî" personal_data="0" responsible="Âîëêîâ Ä.Í." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>CEXTENSION</type>
+          <table>Ëèöî</table>
+        </format>
+      </column>
+      <column name="Íàçâàíèå">
+        <format>
+          <type>STRING</type>
+        </format>
+      </column>
+      <trigger_list/>
+    </table>
+  </group>
+
+  <group name="Ïðîâåðêè">
+    <table last_changed="Ïàëî÷êèí Â.Â." name="Âîïðîñ" personal_data="1" responsible="Ïàëî÷êèí Â.Â." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>IDENTIFIER</type>
+          <max_size>8</max_size>
+        </format>
+      </column>
+      <column name="Íàçâàíèå">
+        <format>
+          <type>STRING</type>
+        </format>
+      </column>
+      <column name="Ôîðìóëèðîâêà">
+        <format>
+          <type>STRING</type>
+        </format>
+      </column>
+      <column name="Òèï">
+        <format>
+          <type>ENUM</type>
+          <element>
+            <string>Îäèí èç ìíîãèõ</string>
+            <value>0</value>
+          </element>
+          <element>
+            <string>Ìíîãèå èç ìíîãèõ</string>
+            <value>1</value>
+          </element>
+          <element>
+            <string>Êðàòêèé îòâåò</string>
+            <value>2</value>
+          </element>
+          <element>
+            <string>×èñëî</string>
+            <value>3</value>
+          </element>
+          <element>
+            <string>Äàòà</string>
+            <value>4</value>
+          </element>
+          <element>
+            <string>Òåêñò</string>
+            <value>5</value>
+          </element>
+          <element>
+            <string>Íà ñîîòâåòñòâèå</string>
+            <value>6</value>
+          </element>
+          <element>
+            <string>ØàáëîíÈòîãîâ</string>
+            <value>7</value>
+          </element>
+          <element>
+            <string>Ãîëîñîâàíèå</string>
+            <value>8</value>
+          </element>
+          <element>
+            <string>ØàáëîíÎòâåòîâ</string>
+            <value>9</value>
+          </element>
+          <element>
+            <string>ÃîëîñîâàíèåÎòâåò</string>
+            <value>10</value>
+          </element>
+        </format>
+      </column>
+      <column name="Îòâåò">
+        <format>
+          <type>BINARY</type>
+          <max_size>1048576</max_size>
+        </format>
+      </column>
+      <column name="Ôëàãè">
+        <format>
+          <type>FLAGS</type>
+          <element>
+            <string>Ñëó÷àéíûé ïîðÿäîê îòâåòîâ</string>
+            <value>0</value>
+          </element>
+          <element>
+            <string>Íóæåí êîììåíòàðèé</string>
+            <value>1</value>
+          </element>
+        </format>
+      </column>
+      <column name="Áàëë">
+        <format>
+          <type>DOUBLE</type>
+        </format>
+      </column>
+      <column name="Ñòàòóñ">
+        <format>
+          <default>2</default>
+          <type>ENUM</type>
+          <element>
+            <string>ïîëîæèòåëüíûé</string>
+            <value>0</value>
+          </element>
+          <element>
+            <string>îòðèöàòåëüíûé</string>
+            <value>1</value>
+          </element>
+          <element>
+            <string>íå îáðàáîòàíî</string>
+            <value>2</value>
+          </element>
+          <element>
+            <string>â ðàáîòå</string>
+            <value>3</value>
+          </element>
+        </format>
+      </column>
+      <column name="Öâåò">
+        <format>
+          <type>STRING</type>
+        </format>
+      </column>
+      <column name="Óäàëåí">
+        <format>
+          <default>0</default>
+          <type>BOOLEAN</type>
+        </format>
+      </column>
+      <column name="ÏîðÍîìåð">
+        <format>
+          <type>INT64</type>
+          <index_number>1</index_number>
+        </format>
+      </column>
+      <column name="ÄàòàÂðåìÿÑîçäàíèÿ">
+        <format>
+          <type>DATETIME</type>
+          <use_current>1</use_current>
+        </format>
+      </column>
+      <column name="Ìåòêà">
+        <format>
+          <default>0</default>
+          <type>ENUM</type>
+          <element>
+            <string>Îáû÷íîå ñîñòîÿíèå</string>
+            <value>0</value>
+          </element>
+          <element>
+            <string>Îñîáîå ñîñòîÿíèå</string>
+            <value>1</value>
+          </element>
+        </format>
+      </column>
+      <column name="Ðàçäåë">
+        <format>
+          <type>HIERARCHY</type>
+          <on_delete>1</on_delete>
+          <nodes_field>1</nodes_field>
+        </format>
+      </column>
+      <index method="btree" name="Ðàçäåë" null_keys="1" service="1" unique="0">
+        <column is_expressions="0" name="Ðàçäåë" nulls_place="LAST" sorting="ASC"/>
+        <column is_expressions="0" name="Ðàçäåë@" nulls_place="LAST" sorting="DESC"/>
+      </index>
+      <index method="btree" name="ÒèïØàáëîíîâÈòîãîâ" null_keys="1" service="0" unique="0">
+        <column is_expressions="1" name="&quot;Òèï&quot; = 7" nulls_place="DEFAULT" sorting="ASC">
+          <definition>
+            <language>PLPGSQL</language>
+            <body>"Òèï" = 7</body>
+          </definition>
+        </column>
+      </index>
+      <trigger_list/>
+    </table>
+    <table last_changed="Ïàëî÷êèí Â.Â." name="ÏðîâåðêàÑîáûòèå" personal_data="1" responsible="Ïàëî÷êèí Â.Â." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>IDENTIFIER</type>
+          <max_size>8</max_size>
+        </format>
+      </column>
+      <column name="Äîêóìåíò">
+        <format>
+          <type>LINK1-N</type>
+          <table>Äîêóìåíò</table>
+          <on_delete>1</on_delete>
+        </format>
+      </column>
+      <column name="×àñòíîåËèöî">
+        <format>
+          <type>LINK1-N</type>
+          <table>×àñòíîåËèöî</table>
+          <on_delete>1</on_delete>
+        </format>
+      </column>
+      <column name="Òèï">
+        <format>
+          <not_null>1</not_null>
+          <default>0</default>
+          <type>ENUM</type>
+          <element>
+            <string>Áîëüøå 1 èçìåíåíèÿ</string>
+            <value>0</value>
+          </element>
+          <element>
+            <string>Îòìåòêà âðåìåíè äî äîêóìåíòó</string>
+            <value>1</value>
+          </element>
+          <element>
+            <string>Ñîçäàíèå çàäà÷è ïî äîêóìåíòó</string>
+            <value>2</value>
+          </element>
+          <element>
+            <string>Èçìåíåíèå ñòàòóñà ñîñòîÿíèÿ</string>
+            <value>3</value>
+          </element>
+          <element>
+            <string>Ïðîâåðêà (äàòà èçìåíåíèé)</string>
+            <value>4</value>
+          </element>
+        </format>
+      </column>
+      <column name="ÄîêóìåíòÑëåäñòâèå">
+        <format>
+          <type>LINK1-N</type>
+          <table>Äîêóìåíò</table>
+          <on_delete>1</on_delete>
+        </format>
+      </column>
+      <column name="Ðåñóðñû">
+        <format>
+          <type>INT64</type>
+        </format>
+      </column>
+      <column name="Ïðîâåðêà">
+        <format>
+          <type>LINK1-N</type>
+          <table>Äîêóìåíò</table>
+          <on_delete>1</on_delete>
+        </format>
+      </column>
+      <column name="Âîïðîñ">
+        <format>
+          <type>LINK1-N</type>
+          <table>Âîïðîñ</table>
+          <on_delete>1</on_delete>
+        </format>
+      </column>
+      <column name="Äàòà">
+        <format>
+          <type>DATE</type>
+          <use_current>1</use_current>
+        </format>
+      </column>
+      <column name="Âðåìÿ">
+        <format>
+          <type>TIME</type>
+          <use_current>1</use_current>
+        </format>
+      </column>
+      <column name="Ðàáîòà">
+        <format>
+          <type>LINK1-N</type>
+          <table>Ðàáîòà</table>
+          <on_delete>1</on_delete>
+        </format>
+      </column>
+      <index method="btree" name="Äîêóìåíò" null_keys="1" service="1" unique="0">
+        <column is_expressions="0" name="Äîêóìåíò" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <index method="btree" name="×àñòíîåËèöî" null_keys="1" service="1" unique="0">
+        <column is_expressions="0" name="×àñòíîåËèöî" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <index method="btree" name="ÄîêóìåíòÑëåäñòâèå" null_keys="0" service="1" unique="0">
+        <column is_expressions="0" name="ÄîêóìåíòÑëåäñòâèå" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <index method="btree" name="Ïðîâåðêà" null_keys="1" service="1" unique="0">
+        <column is_expressions="0" name="Ïðîâåðêà" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <index method="btree" name="Âîïðîñ" null_keys="0" service="1" unique="0">
+        <column is_expressions="0" name="Âîïðîñ" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <index method="btree" name="ÏðîâåðêàÄàòàÏåðèîä" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="Ïðîâåðêà" nulls_place="DEFAULT" sorting="ASC"/>
+        <column is_expressions="0" name="Äàòà" nulls_place="DEFAULT" sorting="ASC"/>
+      </index>
+      <index method="btree" name="Ðàáîòà" null_keys="0" service="1" unique="0">
+        <column is_expressions="0" name="Ðàáîòà" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <index method="btree" name="ÑîñòîÿíèåÏðîâåðêè" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="Äîêóìåíò" nulls_place="DEFAULT" sorting="ASC"/>
+        <predicate>
+          <body>"Òèï" = 4</body>
+        </predicate>
+      </index>
+      <trigger_list/>
+    </table>
+    <table last_changed="Ïàëî÷êèí Â.Â." name="×åêëèñòÑòðóêòóðà" personal_data="0" responsible="Ñàìñîíîâ À.À." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>IDENTIFIER</type>
+          <max_size>8</max_size>
+        </format>
+      </column>
+      <column name="Íàçâàíèå">
+        <format>
+          <type>STRING</type>
+        </format>
+      </column>
+      <column name="Ìåòêà">
+        <format>
+          <type>INTEGER</type>
+        </format>
+      </column>
+      <column name="ÏîðÍîìåð">
+        <format>
+          <type>INT64</type>
+          <index_number>1</index_number>
+        </format>
+      </column>
+      <column name="Âåðñèÿ">
+        <format>
+          <type>STRING</type>
+        </format>
+      </column>
+      <column name="ÄàòàÏðîâåðêè">
+        <format>
+          <type>DATE</type>
+        </format>
+      </column>
+      <column name="Îïèñàíèå">
+        <format>
+          <type>STRING</type>
+        </format>
+      </column>
+      <column name="Òèï">
+        <format>
+          <default>0</default>
+          <type>ENUM</type>
+          <element>
+            <string>×åêëèñò</string>
+            <value>0</value>
+          </element>
+          <element>
+            <string>Test case</string>
+            <value>1</value>
+          </element>
+          <element>
+            <string>×åêëèñòÎòâåò</string>
+            <value>2</value>
+          </element>
+        </format>
+      </column>
+      <column name="ÁàçîâûéÐàçäåë">
+        <format>
+          <type>INT64</type>
+        </format>
+      </column>
+      <column name="ÏëàíîâîåÂðåìÿ">
+        <format>
+          <type>TIMEINTERVAL</type>
+        </format>
+      </column>
+      <column name="Ðàçäåë">
+        <format>
+          <type>HIERARCHY</type>
+          <on_delete>1</on_delete>
+          <nodes_field>1</nodes_field>
+        </format>
+      </column>
+      <column name="Âîïðîñ">
+        <format>
+          <type>LINK1-N</type>
+          <table>Âîïðîñ</table>
+          <on_delete>1</on_delete>
+        </format>
+      </column>
+      <column name="Äîêóìåíò">
+        <format>
+          <type>LINK1-1</type>
+          <table>Äîêóìåíò</table>
+          <on_delete>1</on_delete>
+        </format>
+      </column>
+      <column name="ÇîíàÎòâåòñòâåííîñòè">
+        <format>
+          <type>LINK1-N</type>
+          <table>ÔóíêöèîíàëüíàÿÎáëàñòü</table>
+          <on_delete>1</on_delete>
+        </format>
+      </column>
+      <column name="Ëèöî">
+        <format>
+          <type>LINK1-N</type>
+          <table>×àñòíîåËèöî</table>
+          <on_delete>1</on_delete>
+        </format>
+      </column>
+      <column name="ÄàòàÂðåìÿÏåðåñ÷åòà">
+        <format>
+          <type>DATETIME</type>
+        </format>
+      </column>
+      <column name="Çàäàíèÿ">
+        <format>
+          <type>INTEGER</type>
+        </format>
+      </column>
+      <column name="Âûïîëíåí">
+        <format>
+          <not_null>1</not_null>
+          <default>0</default>
+          <type>BOOLEAN</type>
+        </format>
+      </column>
+      <column name="Äî÷åðíÿÿÇîíà">
+        <format>
+          <type>LINK1-N</type>
+          <table>ÔóíêöèîíàëüíàÿÎáëàñòü</table>
+          <on_delete>1</on_delete>
+        </format>
+      </column>
+      <column name="Ðåñóðñû">
+        <format>
+          <type>INTEGER</type>
+        </format>
+      </column>
+      <column name="Êîììåíòàðèé">
+        <format>
+          <type>STRING</type>
+        </format>
+      </column>
+      <column name="Ðåæèì">
+        <format>
+          <default>0</default>
+          <type>ENUM</type>
+          <element>
+            <string>Ðó÷íîé</string>
+            <value>0</value>
+          </element>
+          <element>
+            <string>Àâòîìàòè÷åñêèé</string>
+            <value>1</value>
+          </element>
+          <element>
+            <string>Àâòîòåñò</string>
+            <value>2</value>
+          </element>
+          <element>
+            <string>Ïðî÷èé</string>
+            <value>3</value>
+          </element>
+        </format>
+      </column>
+      <column name="Öâåò">
+        <format>
+          <type>STRING</type>
+        </format>
+      </column>
+      <index method="btree" name="Ðàçäåë" null_keys="1" service="1" unique="0">
+        <column is_expressions="0" name="Ðàçäåë" nulls_place="LAST" sorting="ASC"/>
+        <column is_expressions="0" name="Ðàçäåë@" nulls_place="LAST" sorting="DESC"/>
+      </index>
+      <index method="btree" name="Âîïðîñ" null_keys="0" service="1" unique="0">
+        <column is_expressions="0" name="Âîïðîñ" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <index method="btree" name="Äîêóìåíò" null_keys="1" service="1" unique="0">
+        <column is_expressions="0" name="Äîêóìåíò" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <index method="btree" name="ÇîíàÎòâåòñòâåííîñòè" null_keys="1" service="1" unique="0">
+        <column is_expressions="0" name="ÇîíàÎòâåòñòâåííîñòè" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <index method="btree" name="Ëèöî" null_keys="0" service="1" unique="0">
+        <column is_expressions="0" name="Ëèöî" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <index method="btree" name="Òèï" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="Òèï" nulls_place="DEFAULT" sorting="ASC"/>
+      </index>
+      <index method="btree" name="ÏóíêòûÏðîâåðêè" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="ÁàçîâûéÐàçäåë" nulls_place="DEFAULT" sorting="ASC"/>
+        <predicate>
+          <body>"$×åðíîâèê" IS NULL</body>
+        </predicate>
+      </index>
+      <index method="btree" name="ËèöîÇàÏóíêòÏðîâåðêè" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="Ëèöî" nulls_place="DEFAULT" sorting="ASC"/>
+        <predicate>
+          <body>"ÁàçîâûéÐàçäåë" IS NOT NULL AND "$×åðíîâèê" IS NULL</body>
+        </predicate>
+      </index>
+      <index method="btree" name="ÏóíêòûÏðîâåðêèÑÒèïîì" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="ÁàçîâûéÐàçäåë" nulls_place="DEFAULT" sorting="ASC"/>
+        <predicate>
+          <body>"Òèï" = 0 AND "$×åðíîâèê" IS NULL</body>
+        </predicate>
+      </index>
+      <index method="btree" name="Ïóíêòû×åêëèñòîâ" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="ÇîíàÎòâåòñòâåííîñòè" nulls_place="DEFAULT" sorting="ASC"/>
+        <predicate>
+          <body>"ÁàçîâûéÐàçäåë" IS NULL AND "$×åðíîâèê" IS NULL</body>
+        </predicate>
+      </index>
+      <index method="btree" name="Ïðîâåðêè" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="Äîêóìåíò" nulls_place="DEFAULT" sorting="ASC"/>
+        <predicate>
+          <body>"ÁàçîâûéÐàçäåë" IS NULL AND "ÇîíàÎòâåòñòâåííîñòè" IS NULL AND "$×åðíîâèê" IS NULL</body>
+        </predicate>
+      </index>
+      <index method="btree" name="Äî÷åðíÿÿÇîíà" null_keys="0" service="1" unique="0">
+        <column is_expressions="0" name="Äî÷åðíÿÿÇîíà" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <index method="btree" name="ÁàçîâûéÐàçäåë" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="ÁàçîâûéÐàçäåë" nulls_place="DEFAULT" sorting="ASC"/>
+      </index>
+      <index method="btree" name="ÏðîâåðêèÂëîæåííîéÇîíû" null_keys="0" service="0" unique="0">
+        <column is_expressions="0" name="Äî÷åðíÿÿÇîíà" nulls_place="DEFAULT" sorting="ASC"/>
+        <predicate>
+          <body>"$×åðíîâèê" IS NULL</body>
+        </predicate>
+      </index>
+      <index method="btree" name="ÏîèñêÏîËèöó" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="Ëèöî" nulls_place="DEFAULT" sorting="ASC"/>
+        <predicate>
+          <body>"Òèï" = 0 AND "$×åðíîâèê" IS NULL AND "ÁàçîâûéÐàçäåë" IS NOT NULL</body>
+        </predicate>
+      </index>
+      <index method="btree" name="ÁàçîâûéÐàçäåëÈÐàçäåë" null_keys="0" service="0" unique="0">
+        <column is_expressions="0" name="ÁàçîâûéÐàçäåë" nulls_place="DEFAULT" sorting="ASC"/>
+        <column is_expressions="0" name="Ðàçäåë" nulls_place="DEFAULT" sorting="ASC"/>
+      </index>
+      <trigger_list/>
+    </table>
+  </group>
+
+  <group name="Âåõè">
+    <table last_changed="Ïàëî÷êèí Â.Â." name="ÂÂåõå" personal_data="1" responsible="Ïàëî÷êèí Â.Â." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <comment>òàáëèöà äëÿ óñêîðåíèÿ ðàáîòû ñ âåõàìè</comment>
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>IDENTIFIER</type>
+          <max_size>8</max_size>
+        </format>
+      </column>
+      <column name="Âåõà">
+        <format>
+          <type>LINK1-N</type>
+          <table>Äîêóìåíò</table>
+          <on_delete>1</on_delete>
+        </format>
+      </column>
+      <column name="Äîêóìåíò">
+        <format>
+          <type>LINK1-N</type>
+          <table>Äîêóìåíò</table>
+          <on_delete>1</on_delete>
+        </format>
+      </column>
+      <column name="ÒèïÄîêóìåíòà">
+        <format>
+          <type>LINK1-N</type>
+          <table>ÒèïÄîêóìåíòà</table>
+          <on_delete>1</on_delete>
+        </format>
+      </column>
+      <column name="Ñîáûòèå">
+        <format>
+          <type>LINK1-N</type>
+          <table>Ñîáûòèå</table>
+          <on_delete>1</on_delete>
+        </format>
+      </column>
+      <column name="ÑâÿçüÄîêóìåíòîâ">
+        <format>
+          <type>LINK1-N</type>
+          <table>ÑâÿçüÄîêóìåíòîâ</table>
+          <on_delete>1</on_delete>
+        </format>
+      </column>
+      <column name="ÈäÐåãëàìåíòà">
+        <format>
+          <type>UUID</type>
+        </format>
+      </column>
+      <column name="ÈäÔàçû">
+        <format>
+          <type>UUID</type>
+        </format>
+      </column>
+      <index method="btree" name="Âåõà" null_keys="1" service="1" unique="0">
+        <column is_expressions="0" name="Âåõà" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <index method="btree" name="Äîêóìåíò" null_keys="1" service="1" unique="0">
+        <column is_expressions="0" name="Äîêóìåíò" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <index method="btree" name="ÒèïÄîêóìåíòà" null_keys="1" service="1" unique="0">
+        <column is_expressions="0" name="ÒèïÄîêóìåíòà" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <index method="btree" name="Ñîáûòèå" null_keys="0" service="1" unique="0">
+        <column is_expressions="0" name="Ñîáûòèå" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <index method="btree" name="ÑâÿçüÄîêóìåíòîâ" null_keys="1" service="1" unique="0">
+        <column is_expressions="0" name="ÑâÿçüÄîêóìåíòîâ" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <index method="btree" name="ÀêòèâíûåÄîêóìåíòû" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="Âåõà" nulls_place="DEFAULT" sorting="ASC"/>
+        <column is_expressions="0" name="ÒèïÄîêóìåíòà" nulls_place="DEFAULT" sorting="ASC"/>
+        <predicate>
+          <body>"Ñîáûòèå" IS NOT NULL</body>
+        </predicate>
+      </index>
+      <index method="btree" name="ÂñåÄîêóìåíòû" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="Âåõà" nulls_place="DEFAULT" sorting="ASC"/>
+        <column is_expressions="0" name="ÒèïÄîêóìåíòà" nulls_place="DEFAULT" sorting="ASC"/>
+      </index>
+      <index method="btree" name="ÇàâåðøåííûåÄîêóìåíòû" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="Âåõà" nulls_place="DEFAULT" sorting="ASC"/>
+        <column is_expressions="0" name="ÒèïÄîêóìåíòà" nulls_place="DEFAULT" sorting="ASC"/>
+        <predicate>
+          <body>"Ñîáûòèå" IS NULL</body>
+        </predicate>
+      </index>
+      <index method="btree" name="ÀêòèâíûåÄîêóìåíòûÐåãëàìåíòà" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="Âåõà" nulls_place="DEFAULT" sorting="ASC"/>
+        <column is_expressions="0" name="ÒèïÄîêóìåíòà" nulls_place="DEFAULT" sorting="ASC"/>
+        <column is_expressions="0" name="ÈäÐåãëàìåíòà" nulls_place="DEFAULT" sorting="ASC"/>
+      </index>
+      <index method="btree" name="ÀêòèâíûåÄîêóìåíòûÔàçûÐåãëàìåíòà" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="Âåõà" nulls_place="DEFAULT" sorting="ASC"/>
+        <column is_expressions="0" name="ÒèïÄîêóìåíòà" nulls_place="DEFAULT" sorting="ASC"/>
+        <column is_expressions="0" name="ÈäÐåãëàìåíòà" nulls_place="DEFAULT" sorting="ASC"/>
+        <column is_expressions="0" name="ÈäÔàçû" nulls_place="DEFAULT" sorting="ASC"/>
+        <predicate>
+          <body>"Ñîáûòèå" IS NOT NULL</body>
+        </predicate>
+      </index>
+      <index method="btree" name="ÍåçàïóùåííûåÄîêóìåíòûÔàçûÐåãëàìåíòà" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="Âåõà" nulls_place="DEFAULT" sorting="ASC"/>
+        <column is_expressions="0" name="ÒèïÄîêóìåíòà" nulls_place="DEFAULT" sorting="ASC"/>
+        <column is_expressions="0" name="ÈäÐåãëàìåíòà" nulls_place="DEFAULT" sorting="ASC"/>
+        <predicate>
+          <body>"Ñîáûòèå" IS NOT NULL AND "ÈäÔàçû" IS NULL</body>
+        </predicate>
+      </index>
+      <index method="btree" name="ÄîêóìåíòûÂÔàçå" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="Âåõà" nulls_place="DEFAULT" sorting="ASC"/>
+        <column is_expressions="0" name="ÒèïÄîêóìåíòà" nulls_place="DEFAULT" sorting="ASC"/>
+        <column is_expressions="0" name="ÈäÐåãëàìåíòà" nulls_place="DEFAULT" sorting="ASC"/>
+        <predicate>
+          <body>"Ñîáûòèå" IS NOT NULL</body>
+        </predicate>
+      </index>
+      <trigger_list/>
+    </table>
+    <table last_changed="Ïàëî÷êèí Â.Â." name="Âåõà" personal_data="1" responsible="aa.shirkin" table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>CEXTENSION</type>
+          <table>Äîêóìåíò</table>
+        </format>
+      </column>
+      <column name="Ñîñòîÿíèå">
+        <format>
+          <default>1</default>
+          <type>ENUM</type>
+          <element>
+            <string>Â ðàáîòå</string>
+            <value>0</value>
+          </element>
+          <element>
+            <string>Ïëàíèðóåòñÿ</string>
+            <value>1</value>
+          </element>
+          <element>
+            <string>Çàêðûòà îò èçìåíåíèé</string>
+            <value>2</value>
+          </element>
+          <element>
+            <string>Âûïîëíåíà</string>
+            <value>3</value>
+          </element>
+          <element>
+            <string>Íå âûïîëíåíà</string>
+            <value>4</value>
+          </element>
+          <element>
+            <string>Â àðõèâå</string>
+            <value>5</value>
+          </element>
+        </format>
+      </column>
+      <column name="Íàçâàíèå">
+        <format>
+          <type>STRING</type>
+        </format>
+      </column>
+      <column name="Îïèñàíèå">
+        <format>
+          <type>STRING</type>
+        </format>
+      </column>
+      <column name="Äàòà">
+        <format>
+          <type>DATE</type>
+        </format>
+      </column>
+      <column name="Êîëè÷åñòâîÇàäà÷">
+        <format>
+          <type>INTEGER</type>
+        </format>
+      </column>
+      <column name="Ïðîåêò">
+        <format>
+          <type>LINK1-N</type>
+          <table>Ïðîåêò</table>
+          <on_delete>2</on_delete>
+        </format>
+      </column>
+      <column name="ÄàòàÂðåìÿÏîäñ÷åòà">
+        <format>
+          <type>DATETIME</type>
+        </format>
+      </column>
+      <column name="Öâåò">
+        <format>
+          <type>STRING</type>
+        </format>
+      </column>
+      <index method="btree" name="Ïðîåêò" null_keys="0" service="1" unique="0">
+        <column is_expressions="0" name="Ïðîåêò" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <index method="btree" name="ÑîñòîÿíèåÂåõè" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="Ñîñòîÿíèå" nulls_place="DEFAULT" sorting="ASC"/>
+        <column is_expressions="0" name="@Äîêóìåíò" nulls_place="DEFAULT" sorting="ASC"/>
+      </index>
+      <index method="btree" name="Ñîñòîÿíèå" null_keys="1" service="0" unique="0">
+        <column is_expressions="0" name="Ñîñòîÿíèå" nulls_place="DEFAULT" sorting="ASC"/>
+      </index>
+      <index method="gin" name="Ïîèñê" null_keys="1" service="0" unique="0">
+        <column is_expressions="1" name="to_tsvector( 'simple'::regconfig, &quot;Íàçâàíèå&quot; )" nulls_place="DEFAULT" sorting="ASC">
+          <definition>
+            <language>PLPGSQL</language>
+            <body>to_tsvector( 'simple'::regconfig, "Íàçâàíèå" )</body>
+          </definition>
+        </column>
+        <predicate>
+          <body>"Íàçâàíèå" IS NOT NULL</body>
+        </predicate>
+      </index>
+      <trigger_list/>
+    </table>
+    <table last_changed="Ïàëî÷êèí Â.Â." name="ÂåõàÃðàôèê" personal_data="0" responsible="Ïàëî÷êèí Â.Â." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+      <column name="____SBIS_PRIMARY_KEY_FIELD____">
+        <format>
+          <type>IDENTIFIER</type>
+          <max_size>4</max_size>
+        </format>
+      </column>
+      <column name="Êîëè÷åñòâî">
+        <format>
+          <type>INTEGER</type>
+        </format>
+      </column>
+      <column name="Äàòà">
+        <format>
+          <type>DATE</type>
+        </format>
+      </column>
+      <column name="Äîêóìåíò">
+        <format>
+          <type>LINK1-N</type>
+          <table>Äîêóìåíò</table>
+          <on_delete>1</on_delete>
+        </format>
+      </column>
+      <index method="btree" name="Äîêóìåíò" null_keys="1" service="1" unique="0">
+        <column is_expressions="0" name="Äîêóìåíò" nulls_place="LAST" sorting="ASC"/>
+      </index>
+      <trigger_list/>
+    </table>
+  </group>
+
+  <table last_changed="Çåðíîâ È.À." name="Ïðîåêò" personal_data="1" responsible="Âîëêîâ Ä.Í." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+    <column name="____SBIS_PRIMARY_KEY_FIELD____">
+      <format>
+        <type>CEXTENSION</type>
+        <table>Äîêóìåíò</table>
+      </format>
+    </column>
+    <column name="ÏëàíÄàòàÍà÷">
+      <format>
+        <type>DATE</type>
+      </format>
+    </column>
+    <column name="ÏëàíÄàòàÊíö">
+      <format>
+        <type>DATE</type>
+      </format>
+    </column>
+    <column name="ÏëàíÏðîäîëæèòåëüíîñòü">
+      <format>
+        <type>INTEGER</type>
+      </format>
+    </column>
+    <column name="ÔàêòÄàòàÍà÷">
+      <format>
+        <type>DATE</type>
+      </format>
+    </column>
+    <column name="ÔàêòÄàòàÊíö">
+      <format>
+        <type>DATE</type>
+      </format>
+    </column>
+    <column name="Îïèñàíèå">
+      <format>
+        <type>STRING</type>
+      </format>
+    </column>
+    <column name="Âûïîëíåí">
+      <format>
+        <type>BOOLEAN</type>
+      </format>
+    </column>
+    <column name="Ïðîâåðåí">
+      <format>
+        <type>BOOLEAN</type>
+      </format>
+    </column>
+    <column name="Öâåò">
+      <format>
+        <type>STRING</type>
+      </format>
+    </column>
+    <column name="Øðèôò">
+      <format>
+        <type>STRING</type>
+      </format>
+    </column>
+    <column name="ÏîðÍîìåð">
+      <format>
+        <type>INT64</type>
+        <index_number>1</index_number>
+      </format>
+    </column>
+    <column name="Îøèáêè">
+      <comment>Ñ÷åò÷èê àêòèâíûõ îøèáîê</comment>
+      <format>
+        <type>INTEGER</type>
+      </format>
+    </column>
+    <column name="ÑîñòîÿíèåÏðîåêòà">
+      <comment>ñîñòîÿíèÿ ïðîåêòà è ïëàíà ðàáîò
+äëÿ ïðîåêòà: 0,1,2,3,4
+äëÿ ïëàíà ðàáîò: 0,3,10,11,12,13</comment>
+      <format>
+        <default>0</default>
+        <type>ENUM</type>
+        <element>
+          <string>ïëàíèðóåòñÿ</string>
+          <value>0</value>
+        </element>
+        <element>
+          <string>â ðàáîòå</string>
+          <value>1</value>
+        </element>
+        <element>
+          <string>çàâåðøåí</string>
+          <value>2</value>
+        </element>
+        <element>
+          <string>â àðõèâå</string>
+          <value>3</value>
+        </element>
+        <element>
+          <string>ïðèîñòàíîâëåí</string>
+          <value>4</value>
+        </element>
+        <element>
+          <string>íå ñîãëàñîâàí</string>
+          <value>10</value>
+        </element>
+        <element>
+          <string>âûïîëíÿåòñÿ</string>
+          <value>11</value>
+        </element>
+        <element>
+          <string>âûïîëíåí</string>
+          <value>12</value>
+        </element>
+        <element>
+          <string>íå âûïîëíåí</string>
+          <value>13</value>
+        </element>
+      </format>
+    </column>
+    <column name="ÈçìåíåíèåÑðîêà">
+      <format>
+        <type>BOOLEAN</type>
+      </format>
+    </column>
+    <column name="Çàäàíèÿ">
+      <format>
+        <type>INTEGER</type>
+      </format>
+    </column>
+    <column name="Ðåñóðñû">
+      <format>
+        <type>INTEGER</type>
+      </format>
+    </column>
+    <column name="ÏðîåêòÝòàïà">
+      <format>
+        <type>HIERARCHY</type>
+        <on_delete>2</on_delete>
+        <nodes_field>0</nodes_field>
+      </format>
+    </column>
+    <column name="Îêîí÷àíèåÂåõà">
+      <format>
+        <type>LINK1-N</type>
+        <table>Âåõà</table>
+        <on_delete>2</on_delete>
+      </format>
+    </column>
+    <column name="ÄàòàÏîäñ÷åòà">
+      <format>
+        <type>DATE</type>
+      </format>
+    </column>
+    <column name="ÄëÿÏîèñêà">
+      <format>
+        <type>STRING</type>
+      </format>
+    </column>
+    <index method="btree" name="ÏîðÍîìåð" null_keys="1" service="0" unique="0">
+      <column is_expressions="0" name="ÏîðÍîìåð" nulls_place="LAST" sorting="ASC"/>
+    </index>
+    <index method="btree" name="ÑîñòîÿíèåÏðîåêòà" null_keys="1" service="0" unique="0">
+      <column is_expressions="0" name="ÑîñòîÿíèåÏðîåêòà" nulls_place="DEFAULT" sorting="ASC"/>
+    </index>
+    <index method="btree" name="ÏðîåêòÝòàïà" null_keys="0" service="1" unique="0">
+      <column is_expressions="0" name="ÏðîåêòÝòàïà" nulls_place="LAST" sorting="ASC"/>
+    </index>
+    <index method="btree" name="Îêîí÷àíèåÂåõà" null_keys="0" service="1" unique="0">
+      <column is_expressions="0" name="Îêîí÷àíèåÂåõà" nulls_place="LAST" sorting="ASC"/>
+    </index>
+    <index method="btree" name="ÍåÂÀðõèâå" null_keys="1" service="0" unique="0">
+      <column is_expressions="0" name="@Äîêóìåíò" nulls_place="DEFAULT" sorting="ASC"/>
+      <predicate>
+        <body>"ÑîñòîÿíèåÏðîåêòà" != 3</body>
+      </predicate>
+    </index>
+    <index method="gin" name="Ïîèñê" null_keys="1" service="0" unique="0">
+      <column is_expressions="1" name="to_tsvector( 'simple'::regconfig, &quot;ÄëÿÏîèñêà&quot; )" nulls_place="DEFAULT" sorting="ASC">
+        <definition>
+          <language>PLPGSQL</language>
+          <body>to_tsvector( 'simple'::regconfig, "ÄëÿÏîèñêà" )</body>
+        </definition>
+      </column>
+      <predicate>
+        <body>"ÄëÿÏîèñêà" IS NOT NULL</body>
+      </predicate>
+    </index>
+    <index method="btree" name="ÏëàíÄàòàÊíö" null_keys="1" service="0" unique="0">
+      <column is_expressions="0" name="ÏëàíÄàòàÊíö" nulls_place="DEFAULT" sorting="ASC"/>
+      <predicate>
+        <body>"ÏëàíÄàòàÊíö" IS NOT NULL</body>
+      </predicate>
+    </index>
+    <index method="btree" name="ÏëàíÄàòàÍà÷" null_keys="1" service="0" unique="0">
+      <column is_expressions="0" name="ÏëàíÄàòàÍà÷" nulls_place="DEFAULT" sorting="ASC"/>
+      <predicate>
+        <body>"ÏëàíÄàòàÍà÷" IS NOT NULL</body>
+      </predicate>
+    </index>
+    <trigger_list/>
+  </table>
+
+  <table last_changed="Ïàëî÷êèí Â.Â." name="ÏðîåêòÑîáûòèå" personal_data="1" responsible="Ñàâèí Â.Â." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+    <comment>Ñîáûòèÿ (èñòîðèÿ èçìåíåíèé ïî Ïðîåêòó/Ýòàïó)</comment>
+    <column name="____SBIS_PRIMARY_KEY_FIELD____">
+      <format>
+        <type>IDENTIFIER</type>
+        <max_size>8</max_size>
+      </format>
+    </column>
+    <column name="Íàçâàíèå">
+      <format>
+        <type>STRING</type>
+      </format>
+    </column>
+    <column name="ÄàòàÂðåìÿ">
+      <format>
+        <type>DATETIME</type>
+        <use_current>1</use_current>
+      </format>
+    </column>
+    <column name="Òèï">
+      <format>
+        <type>ENUM</type>
+        <element>
+          <string>Ñîçäàíèå ïðîåêòà</string>
+          <value>0</value>
+        </element>
+        <element>
+          <string>Èçìåíåíèå ïðîåêòà</string>
+          <value>1</value>
+        </element>
+        <element>
+          <string>Óäàëåíèå ïðîåêòà</string>
+          <value>2</value>
+        </element>
+        <element>
+          <string>Ñîçäàíèå ýòàïà ïðîåêòà</string>
+          <value>3</value>
+        </element>
+        <element>
+          <string>Èçìåíåíèÿ ýòàïà ïðîåêòà</string>
+          <value>4</value>
+        </element>
+        <element>
+          <string>Óäàëåíèå ýòàïà ïðîåêòà</string>
+          <value>5</value>
+        </element>
+        <element>
+          <string>Èçìåíåíèå ñðîêà ïðîåêòà</string>
+          <value>6</value>
+        </element>
+        <element>
+          <string>Èçìåíåíèå ñðîêà ýòàïà</string>
+          <value>7</value>
+        </element>
+        <element>
+          <string>Èçìåíåíèÿ ñòàòóñà ïðîåêòà</string>
+          <value>8</value>
+        </element>
+        <element>
+          <string>Èçìåíåíèÿ ñòàòóñà ýòàïà</string>
+          <value>9</value>
+        </element>
+        <element>
+          <string>Ðó÷íîé ââîä</string>
+          <value>10</value>
+        </element>
+        <element>
+          <string>Ìóòàöèÿ</string>
+          <value>11</value>
+        </element>
+        <element>
+          <string>ÈçìåíåíèåÎòâåòñòâåííîãî</string>
+          <value>20</value>
+        </element>
+        <element>
+          <string>Èçìåíåíèå ñðîêà äîêóìåíòà</string>
+          <value>21</value>
+        </element>
+      </format>
+    </column>
+    <column name="×àñòíîåËèöî">
+      <format>
+        <type>LINK1-N</type>
+        <table>×àñòíîåËèöî</table>
+        <on_delete>2</on_delete>
+      </format>
+    </column>
+    <column name="ÄîêóìåíòÑëåäñòâèå">
+      <format>
+        <type>LINK1-N</type>
+        <table>Äîêóìåíò</table>
+        <on_delete>2</on_delete>
+      </format>
+    </column>
+    <column name="Äîêóìåíò">
+      <format>
+        <type>LINK1-N</type>
+        <table>Äîêóìåíò</table>
+        <on_delete>2</on_delete>
+      </format>
+    </column>
+    <column name="ÑðîêÑ">
+      <comment>Ïðåäûäóùàÿ äàòà</comment>
+      <format>
+        <type>DATETIME</type>
+      </format>
+    </column>
+    <column name="ÑðîêÍà">
+      <comment>Àêòóàëüíàÿ äàòà</comment>
+      <format>
+        <type>DATETIME</type>
+      </format>
+    </column>
+    <index method="btree" name="×àñòíîåËèöî" null_keys="1" service="1" unique="0">
+      <column is_expressions="0" name="×àñòíîåËèöî" nulls_place="LAST" sorting="ASC"/>
+    </index>
+    <index method="btree" name="Äîêóìåíò" null_keys="1" service="1" unique="0">
+      <column is_expressions="0" name="Äîêóìåíò" nulls_place="LAST" sorting="ASC"/>
+    </index>
+    <index method="btree" name="ÄîêóìåíòÑëåäñòâèå" null_keys="1" service="1" unique="0">
+      <column is_expressions="0" name="ÄîêóìåíòÑëåäñòâèå" nulls_place="LAST" sorting="ASC"/>
+    </index>
+    <index method="btree" name="Òèï" null_keys="1" service="0" unique="0">
+      <column is_expressions="0" name="Òèï" nulls_place="DEFAULT" sorting="ASC"/>
+    </index>
+    <trigger_list/>
+  </table>
+
+  <table last_changed="Çåðíîâ È.À." name="ÑâÿçüÄîêóìåíòîâÏëàí" personal_data="0" responsible="Âîëêîâ Ä.Í." table_ignore_convert="0" table_logged="0" table_partitioned="0" unlogged_table="0">
+    <column name="____SBIS_PRIMARY_KEY_FIELD____">
+      <format>
+        <type>UEXTENSION</type>
+        <table>ÑâÿçüÄîêóìåíòîâ</table>
+      </format>
+    </column>
+    <column name="ÏëàíÄàòà">
+      <format>
+        <type>DATE</type>
+      </format>
+    </column>
+    <column name="ÔàêòÄàòà">
+      <format>
+        <type>DATE</type>
+      </format>
+    </column>
+    <column name="ÄàòàÏðîâåðêè">
+      <format>
+        <type>DATE</type>
+      </format>
+    </column>
+    <column name="Âûïîëíåí">
+      <format>
+        <default>0</default>
+        <type>BOOLEAN</type>
+      </format>
+    </column>
+    <column name="Ïðîâåðåí">
+      <format>
+        <default>0</default>
+        <type>BOOLEAN</type>
+      </format>
+    </column>
+    <column name="Çàïîëíåí">
+      <format>
+        <default>0</default>
+        <type>BOOLEAN</type>
+      </format>
+    </column>
+    <column name="Êîììåíòàðèé">
+      <format>
+        <type>STRING</type>
+      </format>
+    </column>
+    <column name="Öâåò">
+      <format>
+        <type>STRING</type>
+      </format>
+    </column>
+    <column name="Ïðèîðèòåò">
+      <comment>0 - Ñòàíäàðò
+1 - Âàæíî
+2 - Êðàéíå âàæíî</comment>
+      <format>
+        <default>0</default>
+        <type>INT16</type>
+      </format>
+    </column>
+    <column name="Ñîñòîÿíèå">
+      <format>
+        <default>0</default>
+        <type>ENUM</type>
+        <element>
+          <string>Ïëàíèðóåòñÿ</string>
+          <value>0</value>
+        </element>
+        <element>
+          <string>Â ðàáîòå</string>
+          <value>1</value>
+        </element>
+        <element>
+          <string>Âûïîëíåí</string>
+          <value>2</value>
+        </element>
+        <element>
+          <string>Íå âûïîëíåí</string>
+          <value>3</value>
+        </element>
+        <element>
+          <string>Ïåðåíåñåí</string>
+          <value>4</value>
+        </element>
+      </format>
+    </column>
+    <column name="Ðåñóðñû">
+      <format>
+        <type>INTEGER</type>
+      </format>
+    </column>
+    <column name="ÄàòàÎáíîâëåíèÿ">
+      <format>
+        <type>DATE</type>
+      </format>
+    </column>
+    <column name="Èñïîëíèòåëü">
+      <format>
+        <type>LINK1-N</type>
+        <table>Ëèöî</table>
+        <on_delete>1</on_delete>
+      </format>
+    </column>
+    <column name="Çàêàç÷èê">
+      <format>
+        <type>LINK1-N</type>
+        <table>Ëèöî</table>
+        <on_delete>1</on_delete>
+      </format>
+    </column>
+    <column name="Äîêóìåíò">
+      <format>
+        <type>LINK1-1</type>
+        <table>Äîêóìåíò</table>
+        <on_delete>1</on_delete>
+      </format>
+    </column>
+    <column name="Ðàñõîä">
+      <format>
+        <type>LINK1-N</type>
+        <table>ÂèäÐàñõîäàÀâàíñîâîãîÎò÷åòà</table>
+        <on_delete>2</on_delete>
+      </format>
+    </column>
+    <column name="ÑòàòüÿÇàòðàò">
+      <format>
+        <type>LINK1-N</type>
+        <table>ÑòàòüÿÇàòðàò</table>
+        <on_delete>2</on_delete>
+      </format>
+    </column>
+    <column name="Ðàáîòà">
+      <format>
+        <type>LINK1-N</type>
+        <table>Ðàáîòà</table>
+        <on_delete>2</on_delete>
+      </format>
+    </column>
+    <index method="btree" name="Èñïîëíèòåëü" null_keys="0" service="1" unique="0">
+      <column is_expressions="0" name="Èñïîëíèòåëü" nulls_place="LAST" sorting="ASC"/>
+    </index>
+    <index method="btree" name="Çàêàç÷èê" null_keys="0" service="1" unique="0">
+      <column is_expressions="0" name="Çàêàç÷èê" nulls_place="LAST" sorting="ASC"/>
+    </index>
+    <index method="btree" name="Äîêóìåíò" null_keys="0" service="1" unique="0">
+      <column is_expressions="0" name="Äîêóìåíò" nulls_place="LAST" sorting="ASC"/>
+    </index>
+    <index method="btree" name="Ðàñõîä" null_keys="0" service="1" unique="0">
+      <column is_expressions="0" name="Ðàñõîä" nulls_place="LAST" sorting="ASC"/>
+    </index>
+    <index method="btree" name="ÑòàòüÿÇàòðàò" null_keys="0" service="1" unique="0">
+      <column is_expressions="0" name="ÑòàòüÿÇàòðàò" nulls_place="LAST" sorting="ASC"/>
+    </index>
+    <index method="btree" name="Ðàáîòà" null_keys="0" service="1" unique="0">
+      <column is_expressions="0" name="Ðàáîòà" nulls_place="LAST" sorting="ASC"/>
+    </index>
+    <trigger_list/>
+  </table>
+
+</dictionary>
